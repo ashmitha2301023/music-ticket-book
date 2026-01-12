@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Music Concert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d') center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .artists {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .artist {
+            background: #1e293b;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            background: #22c55e;
+            color: black;
+            font-size: 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #16a34a;
+        }
+
+        footer {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Summer Beats Concert 🎶</h1>
+            <p>Live Music | July 20, 2026 | New York</p>
+            <br>
+            <button onclick="buyTickets()">Buy Tickets</button>
+        </div>
+    </header>
+
+    <section>
+        <h2>Featured Artists</h2>
+        <div class="artists">
+            <div class="artist">
+                <h3>DJ Nova</h3>
+                <p>EDM</p>
+            </div>
+            <div class="artist">
+                <h3>Luna Ray</h3>
+                <p>Pop</p>
+            </div>
+            <div class="artist">
+                <h3>The Echo Band</h3>
+                <p>Rock</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>About the Event</h2>
+        <p>
+            Join us for an unforgettable night of music, lights, and energy.
+            Experience live performances from top artists in an open-air venue.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Summer Beats Concert | All Rights Reserved
+    </footer>
+
+    <script>
+        function buyTickets() {
+            alert("🎟 Tickets coming soon! Stay tuned.");
+        }
+    </script>
+
+</body>
+</html>
